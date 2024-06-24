@@ -1,3 +1,4 @@
+import About from "./sections/About"
 import Hero from "./sections/Hero"
 
 function App() {
@@ -5,7 +6,9 @@ function App() {
   return (
     <>
       <div>
-          <Hero></Hero>      </div>
+          <Hero></Hero>
+          <About></About>
+      </div>
 
     </>
   )
