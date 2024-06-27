@@ -7,8 +7,8 @@ const About = () => {
         target: heroRef,
         offset: ["start start", "end end"]
     });
-    const margin = useTransform(scrollYProgress, [0.1, 0.5, 0.9], ['1600px', '800px', '0px'])
-    const marginLeft = useTransform(scrollYProgress, [0.1, 0.5, 0.9], ['-800px', '-400px', '0px'])
+    const margin = useTransform(scrollYProgress, [0.1, 0.5, 0.9], ['600px', '300px', '0px'])
+    const marginLeft = useTransform(scrollYProgress, [0.1, 0.5, 0.9], ['-300px', '-150px', '0px'])
     return (
         <div className=' py-24'>
             <div className="  w-[1100px] mx-auto flex gap-8 items-center ">
